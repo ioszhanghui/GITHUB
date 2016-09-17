@@ -1,6 +1,6 @@
 //
-//  GITHUBTests.m
-//  GITHUBTests
+//  gitstudyTests.m
+//  gitstudyTests
 //
 //  Created by 小飞鸟 on 16/9/17.
 //  Copyright © 2016年 小飞鸟. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface GITHUBTests : XCTestCase
+@interface gitstudyTests : XCTestCase
 
 @end
 
-@implementation GITHUBTests
+@implementation gitstudyTests
 
 - (void)setUp {
     [super setUp];
