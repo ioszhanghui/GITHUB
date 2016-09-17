@@ -15,6 +15,8 @@
 		131EDB051D8CC82800BF08ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131EDB031D8CC82800BF08ED /* LaunchScreen.storyboard */; };
 		131EDB101D8CC82800BF08ED /* GITHUBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDB0F1D8CC82800BF08ED /* GITHUBTests.m */; };
 		131EDB1B1D8CC82800BF08ED /* GITHUBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDB1A1D8CC82800BF08ED /* GITHUBUITests.m */; };
+		131EDB2D1D8CCF9500BF08ED /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDB2C1D8CCF9500BF08ED /* BaseNavigationController.m */; };
+		131EDB301D8CCFF700BF08ED /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDB2F1D8CCFF700BF08ED /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		131EDB161D8CC82800BF08ED /* GITHUBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITHUBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131EDB1A1D8CC82800BF08ED /* GITHUBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GITHUBUITests.m; sourceTree = "<group>"; };
 		131EDB1C1D8CC82800BF08ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131EDB2B1D8CCF9500BF08ED /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		131EDB2C1D8CCF9500BF08ED /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		131EDB2E1D8CCFF700BF08ED /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		131EDB2F1D8CCFF700BF08ED /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				131EDAF91D8CC82800BF08ED /* AppDelegate.m */,
 				131EDAFB1D8CC82800BF08ED /* ViewController.h */,
 				131EDAFC1D8CC82800BF08ED /* ViewController.m */,
+				131EDB2E1D8CCFF700BF08ED /* BaseViewController.h */,
+				131EDB2F1D8CCFF700BF08ED /* BaseViewController.m */,
+				131EDB2B1D8CCF9500BF08ED /* BaseNavigationController.h */,
+				131EDB2C1D8CCF9500BF08ED /* BaseNavigationController.m */,
 				131EDAFE1D8CC82800BF08ED /* Main.storyboard */,
 				131EDB011D8CC82800BF08ED /* Assets.xcassets */,
 				131EDB031D8CC82800BF08ED /* LaunchScreen.storyboard */,
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131EDB2D1D8CCF9500BF08ED /* BaseNavigationController.m in Sources */,
+				131EDB301D8CCFF700BF08ED /* BaseViewController.m in Sources */,
 				131EDAFD1D8CC82800BF08ED /* ViewController.m in Sources */,
 				131EDAFA1D8CC82800BF08ED /* AppDelegate.m in Sources */,
 				131EDAF71D8CC82800BF08ED /* main.m in Sources */,
